@@ -1,0 +1,79 @@
+  .WRAPPER li {
+    float: left;
+    width: 160px;
+    height: 100px;
+    background-color:#fefefe;
+    margin-right: 75px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 5px;
+    text-align: center;
+    display: block;
+  }
+  .cart {
+      float: Right;
+        }
+.logo{
+    display: inline;
+}
+footer {
+    clear: left
+}
+.quantityInput{
+
+  width: 50px;
+  float: right;
+  margin-top: 2px;
+  border-radius: 15px;
+  margin-right: -5px;
+
+}
+.submitBtnWrapper{
+  clear:both;
+  float: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+  }
+.container{
+  width: 1200px;
+  margin: 0 auto;
+
+}
+.WRAPPER{
+  width: 915px;
+  margin: 0 auto;
+  clear: both;
+}
+.WRAPPER li:last-child{
+  margin-right: 0px;
+
+}
+.filterDropDown{
+  float: right;
+  margin-bottom: 25px;
+
+}
+input, select{
+  padding: 5px;
+  margin: 5px;
+}
+.submitBtn{
+  text-align: center;
+  display:inline;
+  margin: 0 auto;
+  background-color: rgb(9, 119, 245);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+.logo{
+  font-size: 24px;
+  font-weight: bold;
+}
+.cart, .title {
+  font-size: 18px;
+}
